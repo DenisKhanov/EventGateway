@@ -1,0 +1,208 @@
+time="2024-02-29T18:59:57+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T18:59:57+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyMzMxOTd9.Y83672YInVcV1Hp6vj8GfcuYRBZa6f2JLaYnn4J_9uc file=main.go.30.main.main
+time="2024-02-29T18:59:57+03:00" level=info msg="Starting server on: localhost:8080" file=main.go.43.main.main
+time="2024-02-29T19:04:46+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T19:04:46+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyMzM0ODZ9.O0yusInZfK6udQCoHa-urpeVXpgDV5rAP0Du8j9KwDE file=main.go.30.main.main
+time="2024-02-29T19:04:46+03:00" level=info msg="Starting server on: localhost:8080" file=main.go.43.main.main
+time="2024-02-29T20:32:08+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T20:32:08+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyMzg3Mjh9.T1l7cYe-5Tevvc6rcyjmNOVmEK6LvegQ_rjrKscqlh0 file=main.go.30.main.main
+time="2024-02-29T20:32:08+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T21:00:12+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T21:00:12+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNDA0MTJ9.OL9IscYOZNiA5rE8nIMpnQ31MRlUFd0_-mNMEmWyQ3o file=main.go.30.main.main
+time="2024-02-29T21:00:12+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T21:02:06+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T21:02:06+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNDA1MjZ9.6BoWVYNxM8GjrJueh9fGox0THfeXRVCK3DypTBGrSM0 file=main.go.30.main.main
+time="2024-02-29T21:02:06+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T21:25:32+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T21:25:32+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNDE5MzJ9.hVoZXbQsGKoKRIPaMRAxZjhXuX7T3Zd-I_lbr-MJIVw file=main.go.30.main.main
+time="2024-02-29T21:25:32+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T23:23:27+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T23:23:49+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T23:23:50+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNDkwMzB9.CdaPu8fov1ZQlUV2ihDrHkqHcSK0vYJYZjFTO1KwR3Q file=main.go.30.main.main
+time="2024-02-29T23:23:50+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T23:24:16+03:00" level=info msg="Topic important_events2 created successfully." file=service.go.74.GoProgects/WorkTests/Exnode/FirstService/internal/services.Service.createNewTopic
+time="2024-02-29T23:24:25+03:00" level=info msg="Topic important_events created successfully." file=service.go.74.GoProgects/WorkTests/Exnode/FirstService/internal/services.Service.createNewTopic
+time="2024-02-29T23:44:51+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T23:44:52+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNTAyOTJ9.FNMXqYkftxX047pJkl-WNH_DHxDLEt1BqP91fFaU3pw file=main.go.30.main.main
+time="2024-02-29T23:44:52+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-02-29T23:46:29+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-02-29T23:46:29+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNTAzODl9.LBpzYN59jcmgKLs7I5DDvEAdcchcpxj6EpNLtth0Yaw file=main.go.30.main.main
+time="2024-02-29T23:46:29+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.43.main.main
+time="2024-03-01T00:03:03+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T00:03:03+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNTEzODN9.xZi9tRyngm6vaco4zmCwozmcueuFNhvDeDD7yvZVX6A file=main.go.31.main.main
+time="2024-03-01T00:03:03+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.44.main.main
+time="2024-03-01T00:03:11+03:00" level=info msg="Topic important_events2 created successfully." file="service.go.69.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-01T00:03:11+03:00" level=fatal msg="Error producing message:dial localhost:29092: unknown network localhost:29092" file=producer.go.42.GoProgects/WorkTests/Exnode/FirstService/internal/producers.ProduceMessage
+time="2024-03-01T00:06:35+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T00:06:35+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkyNTE1OTV9.zDxgRUV-OE1BlsZ7Rw72QmFJ2QF3WM98GR1KmAtv8fo file=main.go.31.main.main
+time="2024-03-01T00:06:35+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.44.main.main
+time="2024-03-01T21:33:10+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:33:11+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjg3OTF9.KL8GK7oMcPtgYnIhVdvU6Xp1E9qZjl7St07lDdVoTmc file=main.go.32.main.main
+time="2024-03-01T21:33:11+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:33:25+03:00" level=fatal msg="context value is not topic name: " file=handler.go.32.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:39:35+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:39:35+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjkxNzV9.6O0SSTP5dhSHsb6YaEZ4CMvXlEPX67pm3SByX8q1EXA file=main.go.32.main.main
+time="2024-03-01T21:39:35+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:40:01+03:00" level=fatal msg="context value is not topic name: " file=handler.go.32.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:48:43+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:48:43+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjk3MjN9.ndx74kNXNRbWJRJ8MG4l2ttQ077IW-b920w-an7f528 file=main.go.32.main.main
+time="2024-03-01T21:48:43+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:48:44+03:00" level=fatal msg="context value is not topic name: " file=handler.go.32.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:48:53+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:48:53+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjk3MzN9.KKknuNDh7Ls2sqiNQISx6NshVUgXH0NqWCi0VQVQPiw file=main.go.32.main.main
+time="2024-03-01T21:48:53+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:49:11+03:00" level=fatal msg="context value is not topic name: " file=handler.go.32.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:49:41+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:49:41+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjk3ODF9.a4Xf_d4z3xQG6xv6cR0XmR4k8AfhWODRq3j2gXTnq-s file=main.go.32.main.main
+time="2024-03-01T21:49:41+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:49:47+03:00" level=fatal msg="context value is not topic name: " file=handler.go.33.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:50:54+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:50:54+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjk4NTR9.IwTQCfH14pJTafY0hjP-OIczyd5mYbu7QN_aJpadHhA file=main.go.32.main.main
+time="2024-03-01T21:50:54+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:51:00+03:00" level=fatal msg="context value is not topic name: " file=handler.go.32.GoProgects/WorkTests/Exnode/FirstService/internal/handlers.Handler.GetTopicName
+time="2024-03-01T21:51:52+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:51:53+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMjk5MTN9.i_OBHcDPsIbgNzL5nkvtQQ7tR71F6Ysx1ecn2p1Lk8s file=main.go.32.main.main
+time="2024-03-01T21:51:53+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:51:57+03:00" level=error msg="tokenstring should not contain 'bearer '" file=auth.go.76.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T21:51:57+03:00" level=info file=handler.go.89.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T21:56:13+03:00" level=info msg="Token is valid, topic name: " file=auth.go.84.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T21:56:13+03:00" level=info file=handler.go.89.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T21:57:04+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T21:57:04+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzAyMjR9.Fjn78T6j69EOeXmvRIjiJVT6n31KvL7NPpke45Rafrc file=main.go.32.main.main
+time="2024-03-01T21:57:04+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T21:58:11+03:00" level=error msg="tokenstring should not contain 'bearer '" file=auth.go.76.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T21:58:11+03:00" level=info file=handler.go.89.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:01:35+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:01:35+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzA0OTV9.mdFQNXguYVhV1dzjUhT76MJ_0nAiz7MhHdIM74gtERk file=main.go.32.main.main
+time="2024-03-01T22:01:35+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:01:37+03:00" level=info msg="Token is valid, topic name: " file=auth.go.84.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:01:37+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:07:20+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:07:20+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzA4NDB9.y_JUY7fpYOHUmB4ECkeeg8OnjIdMjq3NQTlEeJStm40 file=main.go.32.main.main
+time="2024-03-01T22:07:20+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:07:38+03:00" level=info msg="Token is valid, topic name: " file=auth.go.84.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:07:38+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:11:56+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:11:57+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzExMTcsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.L6PeuibD6sCFNa6E8Lu1H--mGp3lTUcor4ry5ITzObM file=main.go.32.main.main
+time="2024-03-01T22:11:57+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:12:03+03:00" level=info msg="Token is valid, topic name: " file=auth.go.84.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:12:03+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:12:51+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:12:51+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzExNzEsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.nvmYt6DZzPbYX_uoogQZxMvghMCE9ozt0IFHAfpm6Lk file=main.go.32.main.main
+time="2024-03-01T22:12:51+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:12:57+03:00" level=info msg="Token is valid, topic name: " file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:12:57+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:16:52+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:16:52+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzE0MTIsInRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.V-7RVF7w93Zy6sqqRds36ayt1StRq8FIrZNI1FZv0-g file=main.go.32.main.main
+time="2024-03-01T22:16:52+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:16:55+03:00" level=info msg="Token is valid, topic name: " file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:16:55+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:18:09+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:18:09+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzE0ODksIlRvcGljTmFtZSI6IlZHVnpkRjkwYjNCcFl3PT0ifQ.9mFNCDHC4yOt6d9QFa6yYdSQb8D709S0r0IrToThYbo file=main.go.32.main.main
+time="2024-03-01T22:18:09+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:18:14+03:00" level=info msg="Token is valid, topic name: []" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:18:14+03:00" level=info file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:18:54+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:18:54+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzE1MzQsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.0myIz-b3jHVjFOO-elNo8uvRzOi6M4jipu41kcaktqQ file=main.go.32.main.main
+time="2024-03-01T22:18:54+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:19:37+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.86.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:19:37+03:00" level=info msg=Test_topic file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:19:39+03:00" level=info msg="Topic Test_topic created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-01T22:19:39+03:00" level=fatal msg="Error producing message:[3] Unknown Topic Or Partition: the request is for a topic or partition that does not exist on this broker" file=producer.go.30.GoProgects/WorkTests/Exnode/FirstService/internal/producers.ProduceMessage
+time="2024-03-01T22:20:06+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:20:06+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzE2MDYsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.VRE0wd4LcHuPFXGq9UURXaodJ_m2ErIWWZRYKTZJzmo file=main.go.32.main.main
+time="2024-03-01T22:20:06+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:20:33+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:20:33+03:00" level=info msg=Test_topic file=handler.go.91.main.main.Handler.MiddlewareAuthPrivate.func1
+time="2024-03-01T22:20:33+03:00" level=fatal msg="Error producing message:[3] Unknown Topic Or Partition: the request is for a topic or partition that does not exist on this broker" file=producer.go.30.GoProgects/WorkTests/Exnode/FirstService/internal/producers.ProduceMessage
+time="2024-03-01T22:30:03+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:30:03+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzIyMDMsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.6jXlLFASe28ThrNuhUGVT7IOhUhj1KLD84e2MwTyC6E file=main.go.32.main.main
+time="2024-03-01T22:30:03+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:30:11+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:30:12+03:00" level=info msg="Topic Handler created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-01T22:30:13+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.8183998s method=POST size=-1 status=200 url=/test
+time="2024-03-01T22:30:53+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:39:30+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:39:30+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzI3NzAsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.Wq4rpBOX2lcn5efd9KUqtssnKnZ3nqRETs9VL1pSevc file=main.go.32.main.main
+time="2024-03-01T22:39:30+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:39:34+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:40:39+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:40:39+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzI4MzksIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.zTCzUmK2KDeoYkJkCoDDJgvPX2-FZhVw86LWC5uUIj4 file=main.go.32.main.main
+time="2024-03-01T22:40:39+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:40:46+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:40:46+03:00" level=info msg="Topic Handler created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-01T22:40:46+03:00" level=info msg="Topic Test_topic created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-01T22:40:47+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.3819853s method=POST size=-1 status=200 url=/test
+time="2024-03-01T22:40:49+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:40:50+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0124507s method=POST size=-1 status=200 url=/test
+time="2024-03-01T22:45:53+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T22:45:53+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzMxNTMsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.PZxFtbv1-wM3B4PALqXQoIDe1uJ29kDI2newGp8QKrc file=main.go.32.main.main
+time="2024-03-01T22:45:53+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T22:45:57+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:45:58+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0779627s method=POST size=-1 status=200 url=/test
+time="2024-03-01T22:46:00+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T22:46:01+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0093774s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:37:35+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-01T23:37:35+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzYyNTUsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.DviVCYcya9j7umvD4zuUGx-Ncyqbnm43ZSgohfVv2W4 file=main.go.32.main.main
+time="2024-03-01T23:37:35+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-01T23:38:23+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:38:24+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0485013s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:43:22+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:43:24+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0436283s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:48:02+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:48:03+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0472107s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:52:41+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:52:42+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0366556s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:54:16+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:54:17+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0499715s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:54:38+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:54:39+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0064051s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:56:42+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:56:43+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0567534s method=POST size=-1 status=200 url=/test
+time="2024-03-01T23:58:26+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-01T23:58:27+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0420824s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:02:49+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:02:50+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0237391s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:07:35+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-02T00:07:35+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzgwNTUsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.7UJZB3HcV7FRhPq0-EuoEs7vmJo2AYIn6b3JjpNVd-g file=main.go.32.main.main
+time="2024-03-02T00:07:35+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-02T00:07:51+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:07:51+03:00" level=info msg="Topic Test_topic created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-02T00:07:52+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.1075325s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:10:01+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:10:02+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0162309s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:10:29+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:10:30+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0101044s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:10:38+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:10:39+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0028129s method=POST size=-1 status=200 url=/test
+time="2024-03-02T00:12:58+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-02T00:12:58+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzgzNzgsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.iukyQD33rmV7qv7Q5POXh5HSgj8hJSUN2gHOp06FhM4 file=main.go.32.main.main
+time="2024-03-02T00:12:58+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-02T00:13:07+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-02T00:13:07+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzgzODcsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.PzcJgZ-H7P62zoaN6oFWrHcnkzM7v0lzuzQEsBIUrFI file=main.go.32.main.main
+time="2024-03-02T00:13:07+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-02T00:13:16+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:13:52+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-02T00:13:52+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkzMzg0MzIsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.FuLYA_fBPO0WhdGJEZP1Ncn6EG0OQw90iruqkdRJMcg file=main.go.32.main.main
+time="2024-03-02T00:13:52+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-02T00:13:59+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T00:14:00+03:00" level=info msg="Topic Test_topic created successfully." file="service.go.72.GoProgects/WorkTests/Exnode/FirstService/internal/services.(*Service).createNewTopic"
+time="2024-03-02T00:14:01+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0887879s method=POST size=-1 status=200 url=/test
+time="2024-03-02T22:07:24+03:00" level=info msg="BOT started with configuration logs level: info" file=main.go.21.main.main
+time="2024-03-02T22:07:24+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk0MTcyNDQsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.Yw_wEvPGTtMnFR8hpSIkxd-0pkEkjRkJ5aNYwOSCq6A file=main.go.32.main.main
+time="2024-03-02T22:07:24+03:00" level=info msg="Starting server on: localhost:9090" file=main.go.45.main.main
+time="2024-03-02T22:07:46+03:00" level=error msg="token is expired by 20h48m52.4519017s" file=auth.go.77.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:08:53+03:00" level=error msg="token is expired by 20h49m59.5020722s" file=auth.go.77.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:09:36+03:00" level=error msg="token is expired by 20h50m42.6232897s" file=auth.go.77.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:10:49+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:10:50+03:00" level=info msg="Обработан запрос" file=handler.go.72.main.main.Handler.MiddlewareLogging.func2 duration=1.0305914s method=POST size=-1 status=200 url=/test
+time="2024-03-02T22:46:20+03:00" level=info msg="BOT started with configuration logs level: info" file=API_getway.go.21.main.main
+time="2024-03-02T22:46:20+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk0MTk1ODAsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.pqG_SEFqdh6ID2_OnczdXmUvqVdPglJv9sQ1SfKruPs file=API_getway.go.32.main.main
+time="2024-03-02T22:46:20+03:00" level=info msg="Starting server on: localhost:9090" file=API_getway.go.45.main.main
+time="2024-03-02T22:46:32+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:46:32+03:00" level=info msg="Обработан запрос" file=handler.go.77.main.main.Handler.MiddlewareLogging.func2 duration=65.8674ms method=POST size=-1 status=200 url=/test
+time="2024-03-02T22:47:17+03:00" level=info msg="BOT started with configuration logs level: info" file=API_getway.go.21.main.main
+time="2024-03-02T22:47:17+03:00" level=info msg=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk0MTk2MzcsIlRvcGljTmFtZSI6IlRlc3RfdG9waWMifQ.uGeqga7P4rg9O8uCQrTJoYgNvgSM36JysTxJVuUwwpo file=API_getway.go.32.main.main
+time="2024-03-02T22:47:17+03:00" level=info msg="Starting server on: localhost:9090" file=API_getway.go.45.main.main
+time="2024-03-02T22:47:22+03:00" level=info msg="Token is valid, topic name: Test_topic" file=auth.go.85.GoProgects/WorkTests/Exnode/FirstService/internal/auth.GetUserTopicName
+time="2024-03-02T22:47:22+03:00" level=info msg="Обработан запрос" file=handler.go.77.main.main.Handler.MiddlewareLogging.func2 duration=15.829ms method=POST size=-1 status=200 url=/test
