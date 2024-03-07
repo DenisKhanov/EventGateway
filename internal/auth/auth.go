@@ -19,7 +19,7 @@ type Claims struct {
 // const for generate token
 const (
 	// TokenExp defines the expiration duration for JWT tokens.
-	TokenExp = time.Hour * 3
+	TokenExp = time.Hour * 24
 	// SecretKey is the secret key used for signing JWT tokens.
 	SecretKey = "SnJSkf123jlLKNfsNln"
 )

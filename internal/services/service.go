@@ -1,114 +1,91 @@
 package services
 
 import (
-	"GoProgects/WorkTests/Exnode/FirstService/internal/producers"
 	"context"
 	"github.com/IBM/sarama"
 	"github.com/sirupsen/logrus"
-	"log"
 	"sync"
 )
 
-type Service struct {
-	brokerAddress    string
-	kafkaAdminClient sarama.ClusterAdmin
-	createdTopics    map[string]struct{}
+type Consumer interface {
+	ListenKafkaMessages(topicName string, message chan<- *sarama.ConsumerMessage) error
+}
+type Producer interface {
+	SandMsgToKafka(ctx context.Context, topicName, requestID string, data []byte) error
 }
 
-func NewService(brokerAddress string) *Service {
-	return &Service{
-		brokerAddress:    brokerAddress,
-		kafkaAdminClient: *newKafkaAdminClient(brokerAddress),
-		createdTopics:    make(map[string]struct{}),
-	}
+type ServiceKafka struct {
+	Producer         Producer
+	Customer         Consumer
+	ResponseChannels map[string]chan *sarama.ConsumerMessage
+	ConsumerState    map[string]struct{}
+	message          chan *sarama.ConsumerMessage
+	Mu               sync.Mutex
+	Once             sync.Once
 }
 
-// CheckTopics проверяет существующие топики и сохраняет их в createdTopics
-func (s *Service) CheckTopics() {
-	topics, err := s.kafkaAdminClient.ListTopics()
-	if err != nil {
-		log.Fatal("Error listing topics:", err)
-	}
-	for k, _ := range topics {
-		s.createdTopics[k] = struct{}{}
-	}
-}
-
-func newKafkaAdminClient(brokerAddress string) *sarama.ClusterAdmin {
-	config := sarama.NewConfig()
-	config.Version = sarama.MaxVersion // Указываем версию Kafka
-
-	// Указываем адрес брокера Kafka
-	client, err := sarama.NewClient([]string{brokerAddress}, config)
-	if err != nil {
-		log.Fatal("Error creating Kafka client:", err)
-	}
-
-	// Создаем KafkaAdminClient
-	adminClient, err := sarama.NewClusterAdminFromClient(client)
-	if err != nil {
-		log.Fatal("Error creating Kafka admin client:", err)
-	}
-	return &adminClient
-}
-
-// createNewTopic создает новый топик
-func (s *Service) createNewTopic(topicName string) error {
-
-	// Указываем параметры для создания нового топика
-	topicDetail := &sarama.TopicDetail{
-		NumPartitions:     1,
-		ReplicationFactor: 1,
-	}
-
-	// Создаем новый топик
-	err := s.kafkaAdminClient.CreateTopic(topicName, topicDetail, false)
-	if err != nil {
-		log.Fatal("Error creating topic:", err)
-		return err
-
-	}
-
-	logrus.Infof("Topic %s created successfully.", topicName)
-	s.createdTopics[topicName] = struct{}{}
-	return nil
-}
-
-// createHandlerTopic создание топика "Handler"
-func (s *Service) createHandlerTopic() {
-	if _, ok := s.createdTopics["Handler"]; !ok {
-		if err := s.createNewTopic("Handler"); err != nil {
-			logrus.Errorf("Проблема при создании топика: %v", err)
-		}
+func NewServiceKafka(producer Producer, consumer Consumer) *ServiceKafka {
+	return &ServiceKafka{
+		Producer:         producer,
+		Customer:         consumer,
+		ResponseChannels: make(map[string]chan *sarama.ConsumerMessage),
+		ConsumerState:    make(map[string]struct{}),
+		message:          make(chan *sarama.ConsumerMessage),
 	}
 }
 
-var once sync.Once
-
-// WriteMessage проверяет наличие топика, если его нет то создает новый и записывает в него сообщение
-func (s *Service) WriteMessage(ctx context.Context, topicName string, data []byte) error {
-	//Создаем топик "Handler" только однажды
-	once.Do(s.createHandlerTopic)
-	//если топик не был создан ранее, то создаем его
-	if _, ok := s.createdTopics[topicName]; !ok {
-		if err := s.createNewTopic(topicName); err != nil {
-			logrus.Errorf("Проблема при создании топика: %v", err)
-		}
-	}
+// SendMsgToKafka sends a message to the specified Kafka topic using the underlying producer.
+// It initiates the producer and writes the message to the topic.
+func (s *ServiceKafka) SendMsgToKafka(ctx context.Context, topicName, requestID string, data []byte) error {
 	//запускаем создание продюсера и запись сообщения в топик
-	if err := producers.ProduceMessage(s.brokerAddress, topicName, data); err != nil {
+	if err := s.Producer.SandMsgToKafka(ctx, topicName, requestID, data); err != nil {
 		logrus.Errorf("Проблема при записи в топик: %v", err)
 		return err
 	}
 	return nil
 }
 
-// WriteMessageSarama проверяет наличие топика, если его нет то создает новый и записывает в него сообщение
-func (s *Service) WriteMessageSarama(topicName string, data []byte) error {
-	//запускаем создание продюсера и запись сообщения в топик
-	if err := producers.ProduceMessage(s.brokerAddress, topicName, data); err != nil {
-		logrus.Errorf("Проблема при записи в топик: %v", err)
-		return err
+// RunTopicConsumer starts a Kafka topic consumer for the given topic.
+// It ensures that the consumer is initialized only once and starts listening for messages on the specified topic.
+func (s *ServiceKafka) RunTopicConsumer(ctx context.Context, topicName string) {
+	go s.Once.Do(s.runListenerConsumers)
+	_, exists := s.ConsumerState[topicName]
+	if !exists {
+		s.ConsumerState[topicName] = struct{}{}
+		// Запуск нового консьюмера
+		errCh := make(chan error, 1)
+		go func() {
+			logrus.Infof("Create Consumer %s", topicName)
+			errCh <- s.Customer.ListenKafkaMessages(topicName, s.message)
+		}()
+
+		select {
+		case <-ctx.Done():
+			return
+		case err := <-errCh:
+			if err != nil {
+				delete(s.ConsumerState, topicName)
+				logrus.Infof("Consumer %s deleted", topicName)
+				return
+			}
+		}
 	}
-	return nil
+
+}
+
+// runListenerConsumers continuously listens for messages on the message channel.
+// It processes incoming messages, sends them to the appropriate response channel, and handles channel closure.
+func (s *ServiceKafka) runListenerConsumers() {
+	logrus.Info("ListenerConsumers is started")
+	for msg := range s.message {
+		responseID := string(msg.Key)
+		s.Mu.Lock()
+		ch, exists := s.ResponseChannels[responseID]
+		if exists {
+			ch <- msg
+			delete(s.ResponseChannels, responseID)
+			logrus.Infof("RunListener download %s", responseID)
+		}
+		s.Mu.Unlock()
+	}
 }
