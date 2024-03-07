@@ -51,7 +51,7 @@ FirstService зависит от следующих внешних библио�
 - [GitHub - Gin Gonic](https://github.com/gin-gonic/gin): HTTP-веб-фреймворк
 - [GitHub - Sarama](https://github.com/IBM/sarama): Библиотека для работы с Kafka
 - [Github.com/sirupsen/logrus](https://github.com/sirupsen/logrus): Библиотека для логирования
-- - [Github.com/natefinch/lumberjack](https://github.com/natefinch/lumberjack): Библиотека для конфигурирования записи в файл logrus
+- [Github.com/natefinch/lumberjack](https://github.com/natefinch/lumberjack): Библиотека для конфигурирования записи в файл logrus
 - [Github.com/caarlos0/env](https://github.com/caarlos0/env): Библиотека для получения данных из переменных окружения
 - [Github.com/google/uuid](https://github.com/google/uuid): Библиотека для создания UUID
 - [Github.com/golang-jwt/jwt/v4](https://github.com/golang-jwt/jwt/v4): Библиотека для работы с JWT Token
