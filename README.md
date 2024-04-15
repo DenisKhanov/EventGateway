@@ -1,10 +1,10 @@
-## RU Описание FirstService
+## RU Описание EventGateway
 
-FirstService — это сервер, который обрабатывает POST-запросы и взаимодействует с брокером Kafka.  Вот основные детали:
+EventGateway — это сервер, который обрабатывает POST-запросы и взаимодействует с брокером Kafka.  Вот основные детали:
 
 ### Настройки
 
-Вы можете настроить FirstService с использованием следующих флагов командной строки или переменных окружения:
+Вы можете настроить EventGateway с использованием следующих флагов командной строки или переменных окружения:
 
 - `SERVER_ADDRESS` (`-a`): **Уровень логирования**: По умолчанию установлен на `info`.
 - `LOG_LEVEL` (`-l`): **Адрес сервера**: По умолчанию — `localhost:9090`.
@@ -36,7 +36,7 @@ FirstService — это сервер, который обрабатывает PO
 
 ## Начало работы
 
-Чтобы запустить FirstService, используйте следующую команду:
+Чтобы запустить EventGateway, используйте следующую команду:
 
 ```bash
 go run main.go -a <адрес_сервера> -l <уровень_логирования> -b <адрес_брокера>
@@ -46,7 +46,7 @@ go run main.go -a <адрес_сервера> -l <уровень_логиров�
 
 ## Зависимости
 
-FirstService зависит от следующих внешних библиотек:
+EventGateway зависит от следующих внешних библиотек:
 
 - [GitHub - Gin Gonic](https://github.com/gin-gonic/gin): HTTP-веб-фреймворк
 - [GitHub - Sarama](https://github.com/IBM/sarama): Библиотека для работы с Kafka
@@ -61,13 +61,13 @@ FirstService зависит от следующих внешних библио�
 ________________________________________________________________________
 
 
-# EN FirstService
+# EN EventGateway
 
-FirstService is a server that handles POST requests and communicates with the Kafka broker. Here are the main details:
+EventGateway is a server that handles POST requests and communicates with the Kafka broker. Here are the main details:
 
 ## Settings
 
-You can configure FirstService using the following command-line flags or environment variables:
+You can configure EventGateway using the following command-line flags or environment variables:
 
 - `SERVER_ADDRESS` (`-a`): **Logging Level**: Defaults to `info`.
 - `LOG_LEVEL` (`-l`): **Server Address**: Defaults to `localhost:9090`.
@@ -98,7 +98,7 @@ You can configure FirstService using the following command-line flags or environ
 
 ## Getting Started
 
-To run FirstService, use the following command:
+To run EventGateway, use the following command:
 
 ```bash
 go run main.go -a <server_address> -l <log_level> -b <broker_address>
@@ -108,7 +108,7 @@ Replace `<server_address>`, `<log_level>`, and `<broker_address>` with the desir
 
 ## Dependencies
 
-FirstService depends on the following external libraries:
+EventGateway depends on the following external libraries:
 
 - [GitHub - Gin Gonic](https://github.com/gin-gonic/gin): HTTP web framework
 - [GitHub - Sarama](https://github.com/IBM/sarama): Library for working with Kafka
